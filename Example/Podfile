@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SYATAuthSDK_Example' do
+  pod 'SYATAuthSDK', :path => '../'
+
+  target 'SYATAuthSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
