@@ -7,6 +7,7 @@
 //
 
 #import "SYViewController.h"
+#import <ATAuthSDK/ATAuthSDK.h>
 
 @interface SYViewController ()
 

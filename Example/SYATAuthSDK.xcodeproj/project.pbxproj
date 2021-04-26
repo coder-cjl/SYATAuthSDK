@@ -63,10 +63,10 @@
 		7FA60AAD3AAE94B699FF00C2 /* Pods-SYATAuthSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYATAuthSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-SYATAuthSDK_Tests/Pods-SYATAuthSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		857413251592BC6C40EC540E /* Pods_SYATAuthSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYATAuthSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F8EB3821E4CEDF66914899E /* SYATAuthSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SYATAuthSDK.podspec; path = ../SYATAuthSDK.podspec; sourceTree = "<group>"; };
+		9F8EB3821E4CEDF66914899E /* SYATAuthSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYATAuthSDK.podspec; path = ../SYATAuthSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6DD655529283DB391C60BC0 /* Pods_SYATAuthSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYATAuthSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD974DBF992FBFC000EA258F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EAF639491816335B54358344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD974DBF992FBFC000EA258F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EAF639491816335B54358344 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				705CD9AA720BB4A1C3ACC19A /* Pods-SYATAuthSDK_Tests.debug.xcconfig */,
 				7FA60AAD3AAE94B699FF00C2 /* Pods-SYATAuthSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0F619521B732F1F1190E428A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,24 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0F619521B732F1F1190E428A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SYATAuthSDK_Example/Pods-SYATAuthSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SYATAuthSDK/SYATAuthSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SYATAuthSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYATAuthSDK_Example/Pods-SYATAuthSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFEFA4529919D8E21CAAD060 /* [CP] Check Pods Manifest.lock */ = {

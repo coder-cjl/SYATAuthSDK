@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		330E1C8658CF4F864C22B2204D5D2E53 /* SYATAuthSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 85C70BFFBE2FC453942550B2BF3F9762 /* Build configuration list for PBXAggregateTarget "SYATAuthSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SYATAuthSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4B80DC6847589B67EF71B8F412C174EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D9BF2D4A92ACBF327B7E071DB97D2E53 /* Pods-SYATAuthSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F305BC3DBBD88A49200CDD22A04901 /* Pods-SYATAuthSDK_Tests-dummy.m */; };
+		E7153A3929CC8302CBB3EF58FC248C2A /* Pods-SYATAuthSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE67C2EDCDCB4B907F0BDCEC299DC94 /* Pods-SYATAuthSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F11EF41370A4C7098F8D5800213F4F97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F4265098864239B2F25FD442F2732805 /* Pods-SYATAuthSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA25C54F063787DCEB4AC9A76A8DDACC /* Pods-SYATAuthSDK_Example-dummy.m */; };
+		FF0AC24897BFC0FFED13598B0EEB58E8 /* Pods-SYATAuthSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8BFA1120D490277E124ACC88E7C59C /* Pods-SYATAuthSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB7CF97A470939F9E93B8B8DE9A2C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239CD5E9C0417175E5CAD14F183213C1;
+			remoteInfo = "Pods-SYATAuthSDK_Example";
+		};
+		80831F52724115F655E24D3262FF585A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E1C8658CF4F864C22B2204D5D2E53;
+			remoteInfo = SYATAuthSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD4AD7BB8BCDBD04E81297E15FCF1D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1125DD39D392A63F10427CD6CAAAE131 /* Pods-SYATAuthSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYATAuthSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		365A733D66F1AB5CD756985069BC33A3 /* Pods_SYATAuthSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYATAuthSDK_Example.framework; path = "Pods-SYATAuthSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B969BB9A8A9E0AF9340241FA2DAD96E /* Pods-SYATAuthSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYATAuthSDK_Example.modulemap"; sourceTree = "<group>"; };
+		482816603010407463D624610C6CDFBC /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ATAuthSDK.framework; path = SYATAuthSDK/Vendors/ATAuthSDK.framework; sourceTree = "<group>"; };
+		4AA0FF895E1717E1A4F644A5424AC70F /* SYATAuthSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYATAuthSDK.release.xcconfig; sourceTree = "<group>"; };
+		4FB4819BE0ECB55367C532282DA78226 /* Pods_SYATAuthSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYATAuthSDK_Tests.framework; path = "Pods-SYATAuthSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5107081F013C11C8F1F1B48A8E86E2CE /* Pods-SYATAuthSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYATAuthSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		684A040E9871A3FB4CDC70069FEF30D6 /* Pods-SYATAuthSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYATAuthSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6C46E67F639826D104BF070D8E975170 /* Pods-SYATAuthSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYATAuthSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CFD053BCB7908ECBB92D7C7CDA9CD9A /* Pods-SYATAuthSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYATAuthSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E926BA5B85AB618F01BE779CBE40FFC /* Pods-SYATAuthSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYATAuthSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F527380D5CC7B8E5E77ED57A4D932FA /* SYATAuthSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYATAuthSDK.debug.xcconfig; sourceTree = "<group>"; };
+		830330CBF7D99569004AEA94A8CD4EB0 /* Pods-SYATAuthSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYATAuthSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFA8D96488F06D4A2D3C3A1C7B7ADC5 /* Pods-SYATAuthSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYATAuthSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A027B48CB3CA37DD1355107F9787EF8C /* SYATAuthSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYATAuthSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5F305BC3DBBD88A49200CDD22A04901 /* Pods-SYATAuthSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYATAuthSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		BB4A024433AFB6E8CEFC5543902B17FA /* Pods-SYATAuthSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYATAuthSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		D9B65DC15DB779C19189C840C572F0AB /* Pods-SYATAuthSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYATAuthSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		DDE67C2EDCDCB4B907F0BDCEC299DC94 /* Pods-SYATAuthSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYATAuthSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		E41E2219F131ED5976B0BB48804202A3 /* Pods-SYATAuthSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYATAuthSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA25C54F063787DCEB4AC9A76A8DDACC /* Pods-SYATAuthSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYATAuthSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		F1AEC7719CCB6FD59DE0CC0D6C0E8842 /* YTXOperators.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXOperators.framework; path = SYATAuthSDK/Vendors/YTXOperators.framework; sourceTree = "<group>"; };
+		F598001D44BA02105ED0CED7FEE034C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F7A0E801D457702A61D5D4E56240D92D /* YTXMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXMonitor.framework; path = SYATAuthSDK/Vendors/YTXMonitor.framework; sourceTree = "<group>"; };
+		FA8BFA1120D490277E124ACC88E7C59C /* Pods-SYATAuthSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYATAuthSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E319BFFAF8CFEB87E63099629FADD7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80DC6847589B67EF71B8F412C174EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE97B2F3873C1FB7275EDE8557C2507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11EF41370A4C7098F8D5800213F4F97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01846C2342E4519795E8547A2E1535A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F527380D5CC7B8E5E77ED57A4D932FA /* SYATAuthSDK.debug.xcconfig */,
+				4AA0FF895E1717E1A4F644A5424AC70F /* SYATAuthSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYATAuthSDK";
+			sourceTree = "<group>";
+		};
+		02B7CCC2050ED8DC11A0E35D464FAC58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365A733D66F1AB5CD756985069BC33A3 /* Pods_SYATAuthSDK_Example.framework */,
+				4FB4819BE0ECB55367C532282DA78226 /* Pods_SYATAuthSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62232312807D6DE456DC0F065135B4AE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F598001D44BA02105ED0CED7FEE034C6 /* LICENSE */,
+				0CD4AD7BB8BCDBD04E81297E15FCF1D9 /* README.md */,
+				A027B48CB3CA37DD1355107F9787EF8C /* SYATAuthSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A501A641BA87FCA8418B187247C13DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				482816603010407463D624610C6CDFBC /* ATAuthSDK.framework */,
+				F7A0E801D457702A61D5D4E56240D92D /* YTXMonitor.framework */,
+				F1AEC7719CCB6FD59DE0CC0D6C0E8842 /* YTXOperators.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9A98A4DE8996E457F64C580F6AF4F5A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF51F5CCAA57C6D968EE3F8583E32DBF /* Pods-SYATAuthSDK_Example */,
+				E160ECC794805250F930EB0105DC45B4 /* Pods-SYATAuthSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AA5C6C7E10A277592F9B76C12CDE9164 /* SYATAuthSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A501A641BA87FCA8418B187247C13DB5 /* Frameworks */,
+				62232312807D6DE456DC0F065135B4AE /* Pod */,
+				01846C2342E4519795E8547A2E1535A4 /* Support Files */,
+			);
+			name = SYATAuthSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BF6E0342038ED61AA205B6E48956830A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C6C7E10A277592F9B76C12CDE9164 /* SYATAuthSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BF6E0342038ED61AA205B6E48956830A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				02B7CCC2050ED8DC11A0E35D464FAC58 /* Products */,
+				A9A98A4DE8996E457F64C580F6AF4F5A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF51F5CCAA57C6D968EE3F8583E32DBF /* Pods-SYATAuthSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3B969BB9A8A9E0AF9340241FA2DAD96E /* Pods-SYATAuthSDK_Example.modulemap */,
+				1125DD39D392A63F10427CD6CAAAE131 /* Pods-SYATAuthSDK_Example-acknowledgements.markdown */,
+				7CFD053BCB7908ECBB92D7C7CDA9CD9A /* Pods-SYATAuthSDK_Example-acknowledgements.plist */,
+				EA25C54F063787DCEB4AC9A76A8DDACC /* Pods-SYATAuthSDK_Example-dummy.m */,
+				D9B65DC15DB779C19189C840C572F0AB /* Pods-SYATAuthSDK_Example-Info.plist */,
+				DDE67C2EDCDCB4B907F0BDCEC299DC94 /* Pods-SYATAuthSDK_Example-umbrella.h */,
+				684A040E9871A3FB4CDC70069FEF30D6 /* Pods-SYATAuthSDK_Example.debug.xcconfig */,
+				6C46E67F639826D104BF070D8E975170 /* Pods-SYATAuthSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-SYATAuthSDK_Example";
+			path = "Target Support Files/Pods-SYATAuthSDK_Example";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E160ECC794805250F930EB0105DC45B4 /* Pods-SYATAuthSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5107081F013C11C8F1F1B48A8E86E2CE /* Pods-SYATAuthSDK_Tests.modulemap */,
+				E41E2219F131ED5976B0BB48804202A3 /* Pods-SYATAuthSDK_Tests-acknowledgements.markdown */,
+				7E926BA5B85AB618F01BE779CBE40FFC /* Pods-SYATAuthSDK_Tests-acknowledgements.plist */,
+				A5F305BC3DBBD88A49200CDD22A04901 /* Pods-SYATAuthSDK_Tests-dummy.m */,
+				BB4A024433AFB6E8CEFC5543902B17FA /* Pods-SYATAuthSDK_Tests-Info.plist */,
+				FA8BFA1120D490277E124ACC88E7C59C /* Pods-SYATAuthSDK_Tests-umbrella.h */,
+				9DFA8D96488F06D4A2D3C3A1C7B7ADC5 /* Pods-SYATAuthSDK_Tests.debug.xcconfig */,
+				830330CBF7D99569004AEA94A8CD4EB0 /* Pods-SYATAuthSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-SYATAuthSDK_Tests";
+			path = "Target Support Files/Pods-SYATAuthSDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ADF976869E9D0B6BC8C7A91201897072 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7153A3929CC8302CBB3EF58FC248C2A /* Pods-SYATAuthSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7259A1F0B67F00B89558E25F5B1FD91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0AC24897BFC0FFED13598B0EEB58E8 /* Pods-SYATAuthSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		239CD5E9C0417175E5CAD14F183213C1 /* Pods-SYATAuthSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A178DE6FB316F8235AA1A93AA37C9504 /* Build configuration list for PBXNativeTarget "Pods-SYATAuthSDK_Example" */;
+			buildPhases = (
+				ADF976869E9D0B6BC8C7A91201897072 /* Headers */,
+				153A9E93C696DACD157F359C820C60C0 /* Sources */,
+				DBE97B2F3873C1FB7275EDE8557C2507 /* Frameworks */,
+				507B1015CD57982E2A1A1BB0B616DAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290BEA18B17B024AF74C182F8DE067C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SYATAuthSDK_Example";
+			productName = "Pods-SYATAuthSDK_Example";
+			productReference = 365A733D66F1AB5CD756985069BC33A3 /* Pods_SYATAuthSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F745C96D3F093D4E1171E9CE0E28D8 /* Pods-SYATAuthSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1C65DE573D216DEBEB0C1E13467D38 /* Build configuration list for PBXNativeTarget "Pods-SYATAuthSDK_Tests" */;
+			buildPhases = (
+				D7259A1F0B67F00B89558E25F5B1FD91 /* Headers */,
+				FD1D5235FC06F7054942ACFD0C510871 /* Sources */,
+				5E319BFFAF8CFEB87E63099629FADD7D /* Frameworks */,
+				D19889E6C54ADAE3619C1241C9C87711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73CA50060E831E79CCE0548EB7908B7C /* PBXTargetDependency */,
+			);
+			name = "Pods-SYATAuthSDK_Tests";
+			productName = "Pods-SYATAuthSDK_Tests";
+			productReference = 4FB4819BE0ECB55367C532282DA78226 /* Pods_SYATAuthSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 02B7CCC2050ED8DC11A0E35D464FAC58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				239CD5E9C0417175E5CAD14F183213C1 /* Pods-SYATAuthSDK_Example */,
+				E9F745C96D3F093D4E1171E9CE0E28D8 /* Pods-SYATAuthSDK_Tests */,
+				330E1C8658CF4F864C22B2204D5D2E53 /* SYATAuthSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		507B1015CD57982E2A1A1BB0B616DAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19889E6C54ADAE3619C1241C9C87711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153A9E93C696DACD157F359C820C60C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4265098864239B2F25FD442F2732805 /* Pods-SYATAuthSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1D5235FC06F7054942ACFD0C510871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BF2D4A92ACBF327B7E071DB97D2E53 /* Pods-SYATAuthSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290BEA18B17B024AF74C182F8DE067C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYATAuthSDK;
+			target = 330E1C8658CF4F864C22B2204D5D2E53 /* SYATAuthSDK */;
+			targetProxy = 80831F52724115F655E24D3262FF585A /* PBXContainerItemProxy */;
+		};
+		73CA50060E831E79CCE0548EB7908B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SYATAuthSDK_Example";
+			target = 239CD5E9C0417175E5CAD14F183213C1 /* Pods-SYATAuthSDK_Example */;
+			targetProxy = 1FB7CF97A470939F9E93B8B8DE9A2C4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1728CFABBD71F3BFD7D81CDF29120BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA0FF895E1717E1A4F644A5424AC70F /* SYATAuthSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30A315D75B41043DE4281C754177912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830330CBF7D99569004AEA94A8CD4EB0 /* Pods-SYATAuthSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYATAuthSDK_Tests/Pods-SYATAuthSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYATAuthSDK_Tests/Pods-SYATAuthSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66C33623F8C27837611845FEB3CB8ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C46E67F639826D104BF070D8E975170 /* Pods-SYATAuthSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYATAuthSDK_Example/Pods-SYATAuthSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYATAuthSDK_Example/Pods-SYATAuthSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		990514F239EF73ECA7610653667784F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F527380D5CC7B8E5E77ED57A4D932FA /* SYATAuthSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B82E1BCF38B3A75C34C0C563853E65EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684A040E9871A3FB4CDC70069FEF30D6 /* Pods-SYATAuthSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYATAuthSDK_Example/Pods-SYATAuthSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYATAuthSDK_Example/Pods-SYATAuthSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD2ECF628FA64BC49F54E196A01DEB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFA8D96488F06D4A2D3C3A1C7B7ADC5 /* Pods-SYATAuthSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYATAuthSDK_Tests/Pods-SYATAuthSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYATAuthSDK_Tests/Pods-SYATAuthSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C70BFFBE2FC453942550B2BF3F9762 /* Build configuration list for PBXAggregateTarget "SYATAuthSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990514F239EF73ECA7610653667784F0 /* Debug */,
+				1728CFABBD71F3BFD7D81CDF29120BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A178DE6FB316F8235AA1A93AA37C9504 /* Build configuration list for PBXNativeTarget "Pods-SYATAuthSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82E1BCF38B3A75C34C0C563853E65EC /* Debug */,
+				66C33623F8C27837611845FEB3CB8ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1C65DE573D216DEBEB0C1E13467D38 /* Build configuration list for PBXNativeTarget "Pods-SYATAuthSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2ECF628FA64BC49F54E196A01DEB53 /* Debug */,
+				30A315D75B41043DE4281C754177912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

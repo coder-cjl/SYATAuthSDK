@@ -1,0 +1,6 @@
+framework module SYATAuthSDK {
+  umbrella header "SYATAuthSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
