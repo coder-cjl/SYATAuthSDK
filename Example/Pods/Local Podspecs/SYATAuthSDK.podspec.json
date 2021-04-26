@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "summary": "A short description of SYATAuthSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/cjlsire@126.com/SYATAuthSDK",
+  "homepage": "https://github.com/coder-cjl/SYATAuthSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,15 @@
     "cjlsire@126.com": "cjlsire@126.com"
   },
   "source": {
-    "git": "https://github.com/cjlsire@126.com/SYATAuthSDK.git",
+    "git": "https://github.com/coder-cjl/SYATAuthSDK.git",
     "tag": "0.0.1"
   },
   "platforms": {
     "ios": "12.0"
   },
   "static_framework": true,
-  "vendored_frameworks": "SYATAuthSDK/Vendors/*.framework"
+  "vendored_frameworks": "SYATAuthSDK/Vendors/*.framework",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  }
 }
