@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYATAuthSDK'
-  s.version          = '0.0.1'
+  s.version          = '2.12.6'
   s.summary          = 'A short description of SYATAuthSDK.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
